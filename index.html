@@ -9,7 +9,7 @@
 <body >
    <header>
     <nav> 
-        <!-- mobile -->
+        <!-- mobile ========================================================================-->
         <div class="flex  justify-between md:hidden h-[64px] bg-white px-[24px] pt-[16px]">
             <a href="#"><img src="/20-sua-colmar/images/ic-logo.svg" alt=""></a>
             <a href="#"><img src="/20-sua-colmar/images/ic-on-campus.svg" alt=""></a>
@@ -17,7 +17,7 @@
             <a href="#"><img src="/20-sua-colmar/images/ic-login.svg" alt=""></a>
         </div>
 
-        <!-- desktop ----->
+        <!-- desktop ======================================================================----->
         <div class="hidden md:flex justify-between h-[64px] bg-white px-[24px] pt-[16px]">
             <div class="flex">
                 <a href="#"><img src="/20-sua-colmar/images/ic-logo.svg" alt="" class="pl-[24px]"></a>
@@ -31,10 +31,11 @@
             </div>
         </div>
     </nav>
+
    </header>
    <main class=" flex flex-col text-[16px] text-gray-700">
-    <!-- learn something -->
-    <div class=" flex flex-col md:flex-row bg-gray-200 py-[32px] pl-[24px] gap-[24px]">
+    <!-- learn something ============================================================-->
+    <div class=" flex flex-col md:flex-row bg-gray-200 py-[32px] md:pl-[24px] gap-[24px]">
     <img src="/20-sua-colmar/images/banner.jpg" alt="" class="w-[60vh] ">
     <div class="bg-gray-200 py-[32px] px-[16px]">
         <h1 class="text-[32px] pb-[32px]">Learn something new everyday</h1>
@@ -44,52 +45,165 @@
         </div>
     </div>
     </div>
-    <!-- It dosesn't hurt to keep practicing -->
-     <div class="flex flex-col md:flex-row">
-     <div class="hidden md:flex flex-col ">
-        <img src="/20-sua-colmar/images/information-main.jpg" alt="" class="w-[60vh]">
-        <h2>It dosesn't hurt to keep practicing</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus facilis vero velit dignissimos totam ut iusto laboriosam molestias accusamus ad!</p>
-        <p>Emanuel, Sr Stategist at Hiring.com</p>
-     </div>
+    <!-- It dosesn't hurt to keep practicing ===============================================-->
 
-    <div class="flex-col px-[16px] pt-[16px]" >
+     <div class="flex flex-col md:flex-row " >
+     <div class="hidden md:flex flex-col  ">
+        <img src="/20-sua-colmar/images/information-main.jpg" alt="" class="  py-[32px] px-[24px]">
+        <div class="py-[32px] px-[24px]">
+        <h2 class="text-[32px] pb-[24px]">It dosesn't hurt to keep practicing</h2>
+        <p class="pb-[7rem]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates blanditiis assumenda a reiciendis? Commodi dolorem provident esse doloremque possimus. Ex incidunt iure ad consequuntur dignissimos adipisci tempora ipsam, sed error id in quod voluptatibus. Modi, nihil officia adipisci tenetur natus voluptatem consequatur minima fuga, odio debitis commodi amet ex eum!</p>
+        <p class="pb-[32px]">Emanuel, Sr Stategist at Hiring.com</p>
+        </div>
+    </div>
+
+        <!-- mobile ===============================================================-->
+    <div class="flex flex-col md:hidden px-[16px] pt-[16px]" >
         <div  class="pl-[16px] pb-[64px]">
-            <img src="/20-sua-colmar/images/information-campus-mobile.jpg" alt=""class="pb-[64px]">
-            <h2>Orientation date</h2>
+            <img src="/20-sua-colmar/images/information-orientation-mobile.jpg" alt=""class="pb-[64px]">
+            <h2 class="text-[1.5rem] text-gray-800">Orientation date</h2>
             <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-            <a href="#">Read more</a>
+            <a href="#" class="text-blue-600 text-[1.2rem] font-bold">Read more</a>
         </div>
         <div class="pb-[64px] pl-[16px]">
-          <img src="/20-sua-colmar/images/information-orientation-mobile.jpg" alt=""class="pb-[64px]">
-          <h2>Our campus</h2>
+          <img src="/20-sua-colmar/images/information-campus-mobile.jpg" alt=""class="pb-[64px]">
+          <h2 class="text-[1.5rem] text-gray-800">Our campus</h2>
           <p>Find which campus is close by you</p>
-          <a href="#">Read more</a>
+          <a href="#" class="text-blue-600 text-[1.2rem] font-bold">Read more</a>
         </div>
-        <div class="pb-[32px] pl-[16px]">
+        <div class="pb-[32px]">
             <img src="/20-sua-colmar/images/information-guest-lecture-mobile.jpg" alt=""class="pb-[64px]" >
-            <h2>Special guest lecture</h2>
+            <h2 class="text-[1.5rem] text-gray-800">Special guest lecture</h2>
             <p>Join akeynote with Oliver Sack about music in medical treatment</p>
-            <a href="#">Read more</a>
+            <a href="#" class="text-blue-600 text-[1.2rem] font-bold">Read more</a>
         </div>
     </div>
-    </div>
-        <div class=" flex flex-col gap-[8px] px-[16px] py-32px bg-gray-50">
-            <h2 class="pb-[16px] text-center text-[32px]">Start learning</h2>
-            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-200"><h2>Software engineering</h2></div>
-            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-200"><h2>Computer art</h2></div>
-            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-200"><h2>Design</h2></div>
-            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-200"><h2>Data</h2></div>
-            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-200"><h2>Business</h2></div>
-            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-200"><h2>Marketing</h2></div>
+        <!-- desktop =======================================================================-->
+    <div class="hidden md:flex flex-col w-[40vh] pb-[32px]">
+        <div class="flex flex-row">
+            <img src="/20-sua-colmar/images/information-orientation.jpg" alt=""class=" w-[35vh] h-auto px-[16px] pt-[16px]">
+            <div class=" flex flex-col justify-center w-[65vh]">
+            <h2 class="pb-[8px] text-[1.5rem] text-gray-800">Orientation date</h2>
+            <p class="pb-[8px]">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+            <a href="#" class="text-blue-600 text-[1.2rem] font-bold">Read more</a>
         </div>
-        <div class="pt-[32px]">
+        </div>
+        <div class="flex flex-row">
+          <img src="/20-sua-colmar/images/information-campus.jpg" alt=""class="w-[35vh] h-auto px-[16px] pt-[16px]">
+          <div class=" flex flex-col justify-center w-[65vh]">
+          <h2 class="pb-[8px] text-[1.5rem] text-gray-800">Our campus</h2>
+          <p class="pb-[8px]">Find which campus is close by you</p>
+          <a href="#" class="text-blue-600 text-[1.2rem] font-bold">Read more</a>
+        </div>
+        </div>
+        <div class="flex flex-row">
+            <img src="/20-sua-colmar/images/information-guest-lecture.jpg" alt=""class="w-[35vh] h-auto px-[16px] pt-[16px]" >
+            <div class=" flex flex-col justify-center w-[65vh]">
+            <h2 class="pb-[8px] text-[1.5rem] text-gray-800">Special guest lecture</h2>
+            <p class="pb-[8px]">Join akeynote with Oliver Sack about music in medical treatment</p>
+            <a href="#" class="text-blue-600 text-[1.2rem] font-bold">Read more</a>
+            </div>
+        </div>
+    </div>
+                <!-- Start learning mobile ==================================================-->
+    </div>
+        <div class="flex flex-col md:hidden gap-[8px] px-[16px] py-32px bg-gray-200">
+            <h2 class="pb-[16px] text-center text-[40px]">Start learning</h2>
+            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-400"><h2>Software engineering</h2></div>
+            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-400"><h2>Computer art</h2></div>
+            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-400"><h2>Design</h2></div>
+            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-400"><h2>Data</h2></div>
+            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-400"><h2>Business</h2></div>
+            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-400"><h2>Marketing</h2></div>
+        </div>
+             <!-- Start learning DESKTOP==================================================-->
+        <div class="hidden md:block px-[72px] py-[32px] bg-gray-200">
+            <h2 class="pb-[16px] text-center text-[40px] py-[32px] font-bold">Start learning</h2>
+            <div class="grid grid-cols-3 gap-[32px] text-balance">
+            <div class="bg-white">
+                <img src="/20-sua-colmar/images/course-software.jpg" alt="">
+                <div class="pt-[16px] pb-[24px] pl-[16px]">
+                <h2 class="pb-[8px] text-[1.5rem] font-semibold">Software engineering</h2>
+                <p class="pb-[8px]">COURSES</p>
+                <p>Wed Development,Mobile Development,iOT,Apis</p>
+                </div>
+            </div>
+            <div class="bg-white">
+                <img src="/20-sua-colmar/images/course-computer-art.jpg" alt="">
+                <div class="pt-[16px] pb-[24px] pl-[16px]">
+                <h2 class="pb-[8px] text-[1.5rem] font-semibold">Computer</h2>
+                <p class="pb-[8px]">COURSES</p>
+                <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                </div>
+            </div>
+            <div class="bg-white">
+                <img src="/20-sua-colmar/images/course-design.jpg" alt="">
+                <div class="pt-[16px] pb-[24px] pl-[16px] ">
+                <h2 class="pb-[8px] text-[1.5rem] font-semibold">Design</h2>
+                <p class="pb-[8px]">COURSES</p>
+                <p>User Experience Design, User Research, Visual Design</p>
+                </div>
+            </div>
+            <div class="bg-white">
+                <img src="/20-sua-colmar/images/course-data.jpg" alt="">
+                <div class="pt-[16px] pb-[24px] pl-[16px] border">
+                <h2 class="pb-[8px] text-[1.5rem] font-semibold">Data</h2>
+                <p class="pb-[8px]">COURSES</p>
+                <p>Data Science, Big Data, SQL, Data Visualization</p>
+                </div>
+            </div>
+            <div class="bg-white">
+                <img src="/20-sua-colmar/images/course-business.jpg" alt="">
+                <div class="pt-[16px] pb-[24px] pl-[16px] border">
+                <h2 class="pb-[8px] text-[1.5rem] font-semibold">Business</h2>
+                <p class="pb-[8px]">COURSES</p>
+                <p>Product Development, Business Development, Startup</p>
+                </div>
+            </div>
+            <div class="bg-white">
+                <img src="/20-sua-colmar/images/course-marketing.jpg" alt="">
+                <div class="pt-[16px] pb-[24px] pl-[16px] ">
+                <h2 class="pb-[8px] text-[1.5rem] font-semibold">Marketing</h2>
+                <p class="pb-[8px]">COURSES</p>
+                <p>Analytics, Content Marketing, Mobile Marketing</p>
+                </div>
+            </div>
+        </div>
+        </div>
+         <!-- Thesis exhibit======================================= -->
+        <div class="flex  flex-col  pt-[32px]  ">
             <h2 class="pb-[16px] text-center">Thesis exhibits</h2>
-            <video class="pb-[24px]" >
+
+            <div class="flex  ">
+        <div class="border border-red-600 ml-4 w-[60vh]" >
+            <video class="pb-[24px] mb:px[24px]" autoplay loop controls >
                 <source src="/20-sua-colmar/videos/thesis.mp4" type="video/mp4">
-            </video>
+        
+            </div>
             <h2>Reimagine urban</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, numquam?</p>
+           
+        </div>
+
+        <div class= "border border-red-600   ">
+
+            <div class="flex">
+                <img src="/20-sua-colmar/images/thesis-fisma.jpg" alt="" class="w-[35vh] h-auto px-[16px] py-[16px]">
+                <div class="w[65vh]">
+                <h2 class="pl-[16px]">Fisma: Design and Prototype</h2>
+                <p class="pl-[16px]">Designer showcase of new prototype product</p>
+                </div>
+            </div>
+
+            <div class="flex">
+                <img src="/20-sua-colmar/images/thesis-now-and-then.jpg" alt="" class="w-[35vh] h-auto px-[16px] py-[16px]">
+                <div class="w[65vh]" >
+                <h2 class="pl-[16px]">Now and then</h2>
+                <p class="pl-[16px]">Research study about New York</p>
+                </div>
+            </div>
+        </div>
+        </div>
         </div>
    </main>
    <footer>
