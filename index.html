@@ -3,9 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>God&Food</title>
+    <title>20-sua-colmar</title>
+    <script src="http://cdn.tailwindcss.com"></script>
 </head>
-<body>
-   <h1>Hello Wold</h1> 
+<body >
+   <header>
+    <nav> 
+        <!-- mobile -->
+        <div class="flex  justify-between md:hidden h-[64px] bg-white px-[24px] pt-[16px]">
+            <a href="#"><img src="/20-sua-colmar/images/ic-logo.svg" alt=""></a>
+            <a href="#"><img src="/20-sua-colmar/images/ic-on-campus.svg" alt=""></a>
+            <a href="#"><img src="/20-sua-colmar/images/ic-online.svg" alt=""></a>
+            <a href="#"><img src="/20-sua-colmar/images/ic-login.svg" alt=""></a>
+        </div>
+
+        <!-- desktop ----->
+        <div class="hidden md:flex justify-between h-[64px] bg-white px-[24px] pt-[16px]">
+            <div class="flex">
+                <a href="#"><img src="/20-sua-colmar/images/ic-logo.svg" alt="" class="pl-[24px]"></a>
+                <p class="text-gray-700">COLMAR <span class="text-gray-500">ACADEMY</span></p>
+            </div>
+            <div class="flex gap-[16px]">
+                <h2>On campus</h2>
+                <h2>Online</h2>
+                <h2>or companies</h2>
+                <h2 class="pr-[24px]">Sign in</h2>
+            </div>
+        </div>
+    </nav>
+   </header>
+   <main class=" flex flex-col text-[16px] text-gray-700">
+    <!-- learn something -->
+    <div class=" flex flex-col md:flex-row bg-gray-200 py-[32px] pl-[24px] gap-[24px]">
+    <img src="/20-sua-colmar/images/banner.jpg" alt="" class="w-[60vh] ">
+    <div class="bg-gray-200 py-[32px] px-[16px]">
+        <h1 class="text-[32px] pb-[32px]">Learn something new everyday</h1>
+        <h2 class="pb-[24px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, cumque!</h2>
+        <div class="flex justify-center bg-gray-500  text-white">
+            <p class="py-[8px]">Start here</p>
+        </div>
+    </div>
+    </div>
+    <!-- It dosesn't hurt to keep practicing -->
+     <div class="flex flex-col md:flex-row">
+     <div class="hidden md:flex flex-col ">
+        <img src="/20-sua-colmar/images/information-main.jpg" alt="" class="w-[60vh]">
+        <h2>It dosesn't hurt to keep practicing</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus facilis vero velit dignissimos totam ut iusto laboriosam molestias accusamus ad!</p>
+        <p>Emanuel, Sr Stategist at Hiring.com</p>
+     </div>
+
+    <div class="flex-col px-[16px] pt-[16px]" >
+        <div  class="pl-[16px] pb-[64px]">
+            <img src="/20-sua-colmar/images/information-campus-mobile.jpg" alt=""class="pb-[64px]">
+            <h2>Orientation date</h2>
+            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+            <a href="#">Read more</a>
+        </div>
+        <div class="pb-[64px] pl-[16px]">
+          <img src="/20-sua-colmar/images/information-orientation-mobile.jpg" alt=""class="pb-[64px]">
+          <h2>Our campus</h2>
+          <p>Find which campus is close by you</p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="pb-[32px] pl-[16px]">
+            <img src="/20-sua-colmar/images/information-guest-lecture-mobile.jpg" alt=""class="pb-[64px]" >
+            <h2>Special guest lecture</h2>
+            <p>Join akeynote with Oliver Sack about music in medical treatment</p>
+            <a href="#">Read more</a>
+        </div>
+    </div>
+    </div>
+        <div class=" flex flex-col gap-[8px] px-[16px] py-32px bg-gray-50">
+            <h2 class="pb-[16px] text-center text-[32px]">Start learning</h2>
+            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-200"><h2>Software engineering</h2></div>
+            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-200"><h2>Computer art</h2></div>
+            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-200"><h2>Design</h2></div>
+            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-200"><h2>Data</h2></div>
+            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-200"><h2>Business</h2></div>
+            <div class="pl-[16px] pt-[16px] pb-[24px] bg-gray-200"><h2>Marketing</h2></div>
+        </div>
+        <div class="pt-[32px]">
+            <h2 class="pb-[16px] text-center">Thesis exhibits</h2>
+            <video class="pb-[24px]" >
+                <source src="/20-sua-colmar/videos/thesis.mp4" type="video/mp4">
+            </video>
+            <h2>Reimagine urban</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, numquam?</p>
+        </div>
+   </main>
+   <footer>
+    <h2 class="py-[16px] pl-[24px] text-gray-500">© 2016 Colmar Academy. All rights reserved</h2>
+   </footer>
 </body>
 </html>
